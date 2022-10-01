@@ -6,10 +6,10 @@ a = -9 b = -3->max = -3*/
 
 
 Console.WriteLine("Введите первое число");
-double firstNumber = int.Parse(Console.ReadLine()!);
+double firstNumber = double.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Введите второе число");
-double secondNumber = int.Parse(Console.ReadLine()!);
+double secondNumber = double.Parse(Console.ReadLine()!);
 
 if ( firstNumber == secondNumber)
 {
@@ -18,7 +18,7 @@ if ( firstNumber == secondNumber)
 }
 else
 {
-    
+
 if (firstNumber>secondNumber)
 {
     Console.WriteLine( firstNumber + " больше, а " + secondNumber + " меньше.");
